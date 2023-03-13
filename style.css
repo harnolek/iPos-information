@@ -1,0 +1,59 @@
+
+
+
+body {
+	background: linear-gradient(-50deg, #000000, #385A92, #3462AE, #498EFF);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 0vh;
+    background-color: #333;
+    font-family: sans-serif
+    
+}
+
+.box{
+   font-size: 15px;
+    letter-spacing: -1px;
+    line-height: 160%;
+    
+    
+}
+
+
+
+
+
+
+button{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: transparent;
+    border-color: transparent;
+    margin: 5px;    
+
+
+    text-decoration: none;
+    color: white;
+}
